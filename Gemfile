@@ -6,7 +6,9 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'high_voltage'
+gem 'haml'
+gem 'twitter'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -22,7 +24,7 @@ end
 
 group :test, :development do
   gem 'rspec-rails'
-  gem 'capybara'
+  gem 'capybara', '1.1.4'
 end
 
 gem 'jquery-rails'

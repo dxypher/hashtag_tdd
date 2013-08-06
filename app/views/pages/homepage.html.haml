@@ -1,0 +1,7 @@
+%p{:'data-role' => 'description'}
+  Search through Twitter!
+
+= form_for :twitter, url: searches_path do |f|
+  = f.label :search
+  = f.text_field :search
+  = f.submit "Search"
