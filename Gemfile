@@ -26,6 +26,8 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'capybara', '1.1.4'
   gem 'guard-spork'
+  gem 'jasminerice', '0.0.10'
+  gem 'guard-jasmine'
 end
 
 group :test do
